@@ -22,3 +22,4 @@ Limiarizacao Local
 	Sauvola
 	White
 	Bernsen
+	Wellner (moving average)

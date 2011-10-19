@@ -3,7 +3,7 @@ function [imgOut, regionProps] = findImageLines(img, minHeight, maxHeight, minWi
 	setDefaultValue(3, 'maxHeight', 20);
 	setDefaultValue(4, 'minWidth', 100);
 	setDefaultValue(5, 'maxWidth', 10000);
-	setDefaultValue(6, 'dilate', [90, 10; 0 90]);
+	setDefaultValue(6, 'dilate', [10, 10; 0 90]);
 	setDefaultValue(7, 'erode', []);
 
 	imgBw = bwlabel(img);

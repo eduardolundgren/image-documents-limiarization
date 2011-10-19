@@ -1,4 +1,4 @@
-function [imgOut] = niblack(img, blockSize, weight)
+function [imgOut] = localBinarizationNiblack(img, blockSize, weight)
 	setDefaultValue(2, 'blockSize', 31);
 	setDefaultValue(3, 'weight', -0.8);
 
